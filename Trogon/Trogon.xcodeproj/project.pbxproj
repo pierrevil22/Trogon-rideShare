@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF85A1E3244B1A4B00FBA778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF85A1E2244B1A4B00FBA778 /* AppDelegate.swift */; };
+		FF85A1E5244B1A4B00FBA778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF85A1E4244B1A4B00FBA778 /* SceneDelegate.swift */; };
+		FF85A1EA244B1A4B00FBA778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF85A1E8244B1A4B00FBA778 /* Main.storyboard */; };
+		FF85A1EF244B1A4D00FBA778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF85A1ED244B1A4D00FBA778 /* LaunchScreen.storyboard */; };
+		FF85A1FC244B353D00FBA778 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF85A1FB244B353D00FBA778 /* LoginController.swift */; };
+		FF85A1FE244B543800FBA778 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF85A1FD244B543800FBA778 /* Extensions.swift */; };
+		FF85A202244BE64200FBA778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF85A201244BE64200FBA778 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF85A1DF244B1A4B00FBA778 /* Trogon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trogon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF85A1E2244B1A4B00FBA778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF85A1E4244B1A4B00FBA778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF85A1E9244B1A4B00FBA778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF85A1EE244B1A4D00FBA778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF85A1F0244B1A4D00FBA778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF85A1FB244B353D00FBA778 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		FF85A1FD244B543800FBA778 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FF85A201244BE64200FBA778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF85A1DC244B1A4B00FBA778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF85A1D6244B1A4B00FBA778 = {
+			isa = PBXGroup;
+			children = (
+				FF85A1E1244B1A4B00FBA778 /* Trogon */,
+				FF85A1E0244B1A4B00FBA778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF85A1E0244B1A4B00FBA778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF85A1DF244B1A4B00FBA778 /* Trogon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF85A1E1244B1A4B00FBA778 /* Trogon */ = {
+			isa = PBXGroup;
+			children = (
+				FF85A1FA244B31EC00FBA778 /* Model */,
+				FF85A1F9244B31E900FBA778 /* View */,
+				FF85A1F8244B31E700FBA778 /* Controller */,
+				FF85A1F7244B31E300FBA778 /* Service */,
+				FF85A1F6244B31DD00FBA778 /* Utils */,
+				FF85A1E2244B1A4B00FBA778 /* AppDelegate.swift */,
+				FF85A1E4244B1A4B00FBA778 /* SceneDelegate.swift */,
+				FF85A1E8244B1A4B00FBA778 /* Main.storyboard */,
+				FF85A1ED244B1A4D00FBA778 /* LaunchScreen.storyboard */,
+				FF85A1F0244B1A4D00FBA778 /* Info.plist */,
+				FF85A201244BE64200FBA778 /* Assets.xcassets */,
+			);
+			path = Trogon;
+			sourceTree = "<group>";
+		};
+		FF85A1F6244B31DD00FBA778 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF85A1FD244B543800FBA778 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FF85A1F7244B31E300FBA778 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FF85A1F8244B31E700FBA778 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF85A1FB244B353D00FBA778 /* LoginController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF85A1F9244B31E900FBA778 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF85A1FA244B31EC00FBA778 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF85A1DE244B1A4B00FBA778 /* Trogon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF85A1F3244B1A4D00FBA778 /* Build configuration list for PBXNativeTarget "Trogon" */;
+			buildPhases = (
+				FF85A1DB244B1A4B00FBA778 /* Sources */,
+				FF85A1DC244B1A4B00FBA778 /* Frameworks */,
+				FF85A1DD244B1A4B00FBA778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trogon;
+			productName = Trogon;
+			productReference = FF85A1DF244B1A4B00FBA778 /* Trogon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF85A1D7244B1A4B00FBA778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Carden Pierre-Vil";
+				TargetAttributes = {
+					FF85A1DE244B1A4B00FBA778 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = FF85A1DA244B1A4B00FBA778 /* Build configuration list for PBXProject "Trogon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF85A1D6244B1A4B00FBA778;
+			productRefGroup = FF85A1E0244B1A4B00FBA778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF85A1DE244B1A4B00FBA778 /* Trogon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF85A1DD244B1A4B00FBA778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF85A1EF244B1A4D00FBA778 /* LaunchScreen.storyboard in Resources */,
+				FF85A202244BE64200FBA778 /* Assets.xcassets in Resources */,
+				FF85A1EA244B1A4B00FBA778 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF85A1DB244B1A4B00FBA778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF85A1E3244B1A4B00FBA778 /* AppDelegate.swift in Sources */,
+				FF85A1FC244B353D00FBA778 /* LoginController.swift in Sources */,
+				FF85A1E5244B1A4B00FBA778 /* SceneDelegate.swift in Sources */,
+				FF85A1FE244B543800FBA778 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF85A1E8244B1A4B00FBA778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF85A1E9244B1A4B00FBA778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF85A1ED244B1A4D00FBA778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF85A1EE244B1A4D00FBA778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF85A1F1244B1A4D00FBA778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF85A1F2244B1A4D00FBA778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF85A1F4244B1A4D00FBA778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Trogon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cardenpierrevil.Trogon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF85A1F5244B1A4D00FBA778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Trogon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cardenpierrevil.Trogon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF85A1DA244B1A4B00FBA778 /* Build configuration list for PBXProject "Trogon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF85A1F1244B1A4D00FBA778 /* Debug */,
+				FF85A1F2244B1A4D00FBA778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF85A1F3244B1A4D00FBA778 /* Build configuration list for PBXNativeTarget "Trogon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF85A1F4244B1A4D00FBA778 /* Debug */,
+				FF85A1F5244B1A4D00FBA778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF85A1D7244B1A4B00FBA778 /* Project object */;
+}
