@@ -13,7 +13,9 @@
 		FF85A1EF244B1A4D00FBA778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF85A1ED244B1A4D00FBA778 /* LaunchScreen.storyboard */; };
 		FF85A1FC244B353D00FBA778 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF85A1FB244B353D00FBA778 /* LoginController.swift */; };
 		FF85A1FE244B543800FBA778 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF85A1FD244B543800FBA778 /* Extensions.swift */; };
-		FF85A202244BE64200FBA778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF85A201244BE64200FBA778 /* Assets.xcassets */; };
+		FFCA2BBB244CA710008253DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCA2BBA244CA710008253DE /* Assets.xcassets */; };
+		FFCA2BBD244CD6CC008253DE /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BBC244CD6CC008253DE /* SignUpController.swift */; };
+		FFCA2BBF244CFD85008253DE /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BBE244CFD85008253DE /* AuthButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +27,9 @@
 		FF85A1F0244B1A4D00FBA778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF85A1FB244B353D00FBA778 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		FF85A1FD244B543800FBA778 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		FF85A201244BE64200FBA778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Assets.xcassets"; sourceTree = "<group>"; };
+		FFCA2BBA244CA710008253DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFCA2BBC244CD6CC008253DE /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		FFCA2BBE244CFD85008253DE /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,7 @@
 				FF85A1E8244B1A4B00FBA778 /* Main.storyboard */,
 				FF85A1ED244B1A4D00FBA778 /* LaunchScreen.storyboard */,
 				FF85A1F0244B1A4D00FBA778 /* Info.plist */,
-				FF85A201244BE64200FBA778 /* Assets.xcassets */,
+				FFCA2BBA244CA710008253DE /* Assets.xcassets */,
 			);
 			path = Trogon;
 			sourceTree = "<group>";
@@ -92,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				FF85A1FB244B353D00FBA778 /* LoginController.swift */,
+				FFCA2BBC244CD6CC008253DE /* SignUpController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 		FF85A1F9244B31E900FBA778 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FFCA2BBE244CFD85008253DE /* AuthButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,7 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF85A1EF244B1A4D00FBA778 /* LaunchScreen.storyboard in Resources */,
-				FF85A202244BE64200FBA778 /* Assets.xcassets in Resources */,
+				FFCA2BBB244CA710008253DE /* Assets.xcassets in Resources */,
 				FF85A1EA244B1A4B00FBA778 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,6 +187,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCA2BBD244CD6CC008253DE /* SignUpController.swift in Sources */,
+				FFCA2BBF244CFD85008253DE /* AuthButton.swift in Sources */,
 				FF85A1E3244B1A4B00FBA778 /* AppDelegate.swift in Sources */,
 				FF85A1FC244B353D00FBA778 /* LoginController.swift in Sources */,
 				FF85A1E5244B1A4B00FBA778 /* SceneDelegate.swift in Sources */,
