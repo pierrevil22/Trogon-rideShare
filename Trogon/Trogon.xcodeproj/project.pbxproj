@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47ECCA716AB4A3F557E000BE /* Pods_Trogon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01591BCEF88BF39E401D3F67 /* Pods_Trogon.framework */; };
 		FF85A1E3244B1A4B00FBA778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF85A1E2244B1A4B00FBA778 /* AppDelegate.swift */; };
 		FF85A1E5244B1A4B00FBA778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF85A1E4244B1A4B00FBA778 /* SceneDelegate.swift */; };
 		FF85A1EA244B1A4B00FBA778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF85A1E8244B1A4B00FBA778 /* Main.storyboard */; };
@@ -16,9 +17,19 @@
 		FFCA2BBB244CA710008253DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCA2BBA244CA710008253DE /* Assets.xcassets */; };
 		FFCA2BBD244CD6CC008253DE /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BBC244CD6CC008253DE /* SignUpController.swift */; };
 		FFCA2BBF244CFD85008253DE /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BBE244CFD85008253DE /* AuthButton.swift */; };
+		FFCA2BC1244D527D008253DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFCA2BC0244D527D008253DE /* GoogleService-Info.plist */; };
+		FFCA2BC3244E351E008253DE /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BC2244E351E008253DE /* HomeController.swift */; };
+		FFCA2BC5244F0D5B008253DE /* LocationinputActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BC4244F0D5B008253DE /* LocationinputActivationView.swift */; };
+		FFCA2BC7244F4EE8008253DE /* LocationinputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BC6244F4EE8008253DE /* LocationinputView.swift */; };
+		FFCA2BC924500329008253DE /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BC824500329008253DE /* LocationCell.swift */; };
+		FFCA2BCB2450B66A008253DE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BCA2450B669008253DE /* Service.swift */; };
+		FFCA2BCD2450D7C1008253DE /* User .swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BCC2450D7C1008253DE /* User .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01591BCEF88BF39E401D3F67 /* Pods_Trogon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trogon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDD7E472749D960701C153D /* Pods-Trogon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trogon.debug.xcconfig"; path = "Target Support Files/Pods-Trogon/Pods-Trogon.debug.xcconfig"; sourceTree = "<group>"; };
+		AE5F55CFC4FE1DD7842A1625 /* Pods-Trogon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trogon.release.xcconfig"; path = "Target Support Files/Pods-Trogon/Pods-Trogon.release.xcconfig"; sourceTree = "<group>"; };
 		FF85A1DF244B1A4B00FBA778 /* Trogon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trogon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF85A1E2244B1A4B00FBA778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF85A1E4244B1A4B00FBA778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +41,13 @@
 		FFCA2BBA244CA710008253DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFCA2BBC244CD6CC008253DE /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		FFCA2BBE244CFD85008253DE /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		FFCA2BC0244D527D008253DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FFCA2BC2244E351E008253DE /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		FFCA2BC4244F0D5B008253DE /* LocationinputActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationinputActivationView.swift; sourceTree = "<group>"; };
+		FFCA2BC6244F4EE8008253DE /* LocationinputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationinputView.swift; sourceTree = "<group>"; };
+		FFCA2BC824500329008253DE /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		FFCA2BCA2450B669008253DE /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		FFCA2BCC2450D7C1008253DE /* User .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47ECCA716AB4A3F557E000BE /* Pods_Trogon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B940BAA5CD1C8B0B98487A6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DDD7E472749D960701C153D /* Pods-Trogon.debug.xcconfig */,
+				AE5F55CFC4FE1DD7842A1625 /* Pods-Trogon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3B72B7709C394FD95665CAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01591BCEF88BF39E401D3F67 /* Pods_Trogon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF85A1D6244B1A4B00FBA778 = {
 			isa = PBXGroup;
 			children = (
 				FF85A1E1244B1A4B00FBA778 /* Trogon */,
 				FF85A1E0244B1A4B00FBA778 /* Products */,
+				B940BAA5CD1C8B0B98487A6E /* Pods */,
+				E3B72B7709C394FD95665CAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +110,7 @@
 				FF85A1E8244B1A4B00FBA778 /* Main.storyboard */,
 				FF85A1ED244B1A4D00FBA778 /* LaunchScreen.storyboard */,
 				FF85A1F0244B1A4D00FBA778 /* Info.plist */,
+				FFCA2BC0244D527D008253DE /* GoogleService-Info.plist */,
 				FFCA2BBA244CA710008253DE /* Assets.xcassets */,
 			);
 			path = Trogon;
@@ -88,6 +127,7 @@
 		FF85A1F7244B31E300FBA778 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				FFCA2BCA2450B669008253DE /* Service.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -97,6 +137,7 @@
 			children = (
 				FF85A1FB244B353D00FBA778 /* LoginController.swift */,
 				FFCA2BBC244CD6CC008253DE /* SignUpController.swift */,
+				FFCA2BC2244E351E008253DE /* HomeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -105,6 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				FFCA2BBE244CFD85008253DE /* AuthButton.swift */,
+				FFCA2BC4244F0D5B008253DE /* LocationinputActivationView.swift */,
+				FFCA2BC6244F4EE8008253DE /* LocationinputView.swift */,
+				FFCA2BC824500329008253DE /* LocationCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -112,6 +156,7 @@
 		FF85A1FA244B31EC00FBA778 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FFCA2BCC2450D7C1008253DE /* User .swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -123,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF85A1F3244B1A4D00FBA778 /* Build configuration list for PBXNativeTarget "Trogon" */;
 			buildPhases = (
+				3DD326602FADAA1EB4B36CB5 /* [CP] Check Pods Manifest.lock */,
 				FF85A1DB244B1A4B00FBA778 /* Sources */,
 				FF85A1DC244B1A4B00FBA778 /* Frameworks */,
 				FF85A1DD244B1A4B00FBA778 /* Resources */,
+				FFFA71B6F591B534C93A3959 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF85A1EF244B1A4D00FBA778 /* LaunchScreen.storyboard in Resources */,
+				FFCA2BC1244D527D008253DE /* GoogleService-Info.plist in Resources */,
 				FFCA2BBB244CA710008253DE /* Assets.xcassets in Resources */,
 				FF85A1EA244B1A4B00FBA778 /* Main.storyboard in Resources */,
 			);
@@ -182,16 +230,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DD326602FADAA1EB4B36CB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trogon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFFA71B6F591B534C93A3959 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trogon/Pods-Trogon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trogon/Pods-Trogon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trogon/Pods-Trogon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF85A1DB244B1A4B00FBA778 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FFCA2BBD244CD6CC008253DE /* SignUpController.swift in Sources */,
+				FFCA2BCD2450D7C1008253DE /* User .swift in Sources */,
 				FFCA2BBF244CFD85008253DE /* AuthButton.swift in Sources */,
+				FFCA2BC3244E351E008253DE /* HomeController.swift in Sources */,
+				FFCA2BC7244F4EE8008253DE /* LocationinputView.swift in Sources */,
 				FF85A1E3244B1A4B00FBA778 /* AppDelegate.swift in Sources */,
 				FF85A1FC244B353D00FBA778 /* LoginController.swift in Sources */,
+				FFCA2BC924500329008253DE /* LocationCell.swift in Sources */,
 				FF85A1E5244B1A4B00FBA778 /* SceneDelegate.swift in Sources */,
+				FFCA2BCB2450B66A008253DE /* Service.swift in Sources */,
+				FFCA2BC5244F0D5B008253DE /* LocationinputActivationView.swift in Sources */,
 				FF85A1FE244B543800FBA778 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +430,7 @@
 		};
 		FF85A1F4244B1A4D00FBA778 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DDD7E472749D960701C153D /* Pods-Trogon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -351,6 +448,7 @@
 		};
 		FF85A1F5244B1A4D00FBA778 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5F55CFC4FE1DD7842A1625 /* Pods-Trogon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

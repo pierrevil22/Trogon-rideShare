@@ -1,0 +1,6 @@
+framework module Pods_Trogon {
+  umbrella header "Pods-Trogon-umbrella.h"
+
+  export *
+  module * { export * }
+}
