@@ -11,13 +11,14 @@ import Firebase
 import MapKit
 
 private let reuseIdentifier = "LocationCell"
+private let annotationIdentifier = "DriverAnnotation"
 
 class HomeController: UIViewController {
     
     // CARDEN: - Properties
     
     private let mapView = MKMapView()
-    private let locationManger = CLLocationManager()
+    private let locationManger = LocationHandler.shared.locationManager
     
     private let inputActivationView = LocationInputActivationView()
     private let locationInputView = LocationInputView()
@@ -36,14 +37,38 @@ class HomeController: UIViewController {
         checkIfUserIsLoggedIn()
         enableLocationServices()
         fetchUserData()
- //       signOut()
+        fetchDrivers()
     }
         
     // CARDEN: - API
     
     func fetchUserData() {
-        Service.shared.fetchUserData { user in
+        guard let currentUid = Auth.auth().currentUser?.uid else { return }
+        Service.shared.fetchUserData(uid: currentUid) { user in
             self.user = user
+        }
+    }
+    
+    func fetchDrivers() {
+        guard let location = locationManger?.location else { return }
+        Service.shared.fetchDrivers(location: location) { (driver) in
+            guard let coordinate = driver.location?.coordinate else { return }
+            let annotation = DriverAnnotation(uid: driver.uid, coordinate: coordinate)
+            
+            var driverIsVisible: Bool {
+                return self.mapView.annotations.contains(where: { annotation -> Bool in
+                    guard let driverAnno = annotation as? DriverAnnotation else { return false }
+                    if driverAnno.uid == driver.uid {
+                        driverAnno.updateAnnotationPosition(withCoordinate: coordinate)
+                        return true
+                    }
+                    return false
+                })
+            }
+            
+            if !driverIsVisible {
+                self.mapView.addAnnotation(annotation)
+            }
         }
     }
     
@@ -61,6 +86,10 @@ class HomeController: UIViewController {
     func signOut() {
         do {
             try Auth.auth().signOut()
+            DispatchQueue.main.async {
+                let nav = UINavigationController(rootViewController: LoginController())
+                self.present(nav, animated: true, completion: nil)
+            }
         } catch {
             print("DEBUG: Error signing out")
         }
@@ -91,6 +120,7 @@ class HomeController: UIViewController {
         
         mapView.showsUserLocation = true
         mapView.userTrackingMode = .follow
+        mapView.delegate = self
     }
     
     func configureLocationInputView() {
@@ -126,34 +156,40 @@ class HomeController: UIViewController {
     }
 }
 
+// CARDEN: - MKMapViewDelegate
+
+extension HomeController: MKMapViewDelegate {
+    
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        if let annotation = annotation as? DriverAnnotation {
+            let view = MKAnnotationView(annotation: annotation, reuseIdentifier: annotationIdentifier)
+            view.image = #imageLiteral(resourceName: "chevron-sign-to-right")
+            return view
+        }
+        return nil
+    }
+    
+}
+
 // CARDEN: - LocationServices
 
-extension HomeController: CLLocationManagerDelegate {
+extension HomeController {
     func enableLocationServices() {
-        locationManger.delegate = self
-        
         switch CLLocationManager.authorizationStatus() {
         case .notDetermined:
             print("DEBUG: Not determined..")
-            locationManger.requestWhenInUseAuthorization()
+            locationManger?.requestWhenInUseAuthorization()
         case .restricted, .denied:
             break
         case .authorizedAlways:
             print("DEBUG: Auth always..")
-            locationManger.startUpdatingLocation()
-            locationManger.desiredAccuracy = kCLLocationAccuracyBest
+            locationManger?.startUpdatingLocation()
+            locationManger?.desiredAccuracy = kCLLocationAccuracyBest
         case .authorizedWhenInUse:
             print("DEBUG: Auth when in use..")
-            locationManger.requestAlwaysAuthorization()
+            locationManger?.requestAlwaysAuthorization()
         @unknown default:
             break
-        }
-    }
-    
-    func locationManager( manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        
-        if status == .authorizedWhenInUse {
-            locationManger.requestAlwaysAuthorization()
         }
     }
 }

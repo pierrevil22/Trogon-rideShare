@@ -23,7 +23,9 @@
 		FFCA2BC7244F4EE8008253DE /* LocationinputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BC6244F4EE8008253DE /* LocationinputView.swift */; };
 		FFCA2BC924500329008253DE /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BC824500329008253DE /* LocationCell.swift */; };
 		FFCA2BCB2450B66A008253DE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BCA2450B669008253DE /* Service.swift */; };
-		FFCA2BCD2450D7C1008253DE /* User .swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BCC2450D7C1008253DE /* User .swift */; };
+		FFCA2BCD2450D7C1008253DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BCC2450D7C1008253DE /* User.swift */; };
+		FFCA2BCF2450F779008253DE /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BCE2450F779008253DE /* LocationHandler.swift */; };
+		FFCA2BD124513367008253DE /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BD024513367008253DE /* DriverAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +49,9 @@
 		FFCA2BC6244F4EE8008253DE /* LocationinputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationinputView.swift; sourceTree = "<group>"; };
 		FFCA2BC824500329008253DE /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		FFCA2BCA2450B669008253DE /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		FFCA2BCC2450D7C1008253DE /* User .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User .swift"; sourceTree = "<group>"; };
+		FFCA2BCC2450D7C1008253DE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FFCA2BCE2450F779008253DE /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		FFCA2BD024513367008253DE /* DriverAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				FF85A1FD244B543800FBA778 /* Extensions.swift */,
+				FFCA2BCE2450F779008253DE /* LocationHandler.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -156,7 +161,8 @@
 		FF85A1FA244B31EC00FBA778 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FFCA2BCC2450D7C1008253DE /* User .swift */,
+				FFCA2BCC2450D7C1008253DE /* User.swift */,
+				FFCA2BD024513367008253DE /* DriverAnnotation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -278,12 +284,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFCA2BBD244CD6CC008253DE /* SignUpController.swift in Sources */,
-				FFCA2BCD2450D7C1008253DE /* User .swift in Sources */,
+				FFCA2BCD2450D7C1008253DE /* User.swift in Sources */,
 				FFCA2BBF244CFD85008253DE /* AuthButton.swift in Sources */,
 				FFCA2BC3244E351E008253DE /* HomeController.swift in Sources */,
+				FFCA2BD124513367008253DE /* DriverAnnotation.swift in Sources */,
 				FFCA2BC7244F4EE8008253DE /* LocationinputView.swift in Sources */,
 				FF85A1E3244B1A4B00FBA778 /* AppDelegate.swift in Sources */,
 				FF85A1FC244B353D00FBA778 /* LoginController.swift in Sources */,
+				FFCA2BCF2450F779008253DE /* LocationHandler.swift in Sources */,
 				FFCA2BC924500329008253DE /* LocationCell.swift in Sources */,
 				FF85A1E5244B1A4B00FBA778 /* SceneDelegate.swift in Sources */,
 				FFCA2BCB2450B66A008253DE /* Service.swift in Sources */,
