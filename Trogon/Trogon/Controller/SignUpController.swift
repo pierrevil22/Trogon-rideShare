@@ -130,9 +130,7 @@ class SignUpController: UIViewController {
             }
             
             self.uploadUserDataAndShowHomeController(uid: uid, values: values)
-            
-        }
-            
+        }            
     }
     
     @objc func handleShowLogin() {
@@ -144,7 +142,7 @@ class SignUpController: UIViewController {
     func uploadUserDataAndShowHomeController(uid: String, values: [String: Any]) {
         REF_USERS.child(uid).updateChildValues(values, withCompletionBlock: { (error, ref) in
             guard let controller = UIApplication.shared.keyWindow?.rootViewController as?         HomeController else { return }
-            controller.configureUI()
+            controller.configure()
             self.dismiss(animated: true, completion: nil)
         })
     }
