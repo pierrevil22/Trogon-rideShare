@@ -29,6 +29,9 @@
 		FFCA2BD324536E96008253DE /* RideActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BD224536E95008253DE /* RideActionView.swift */; };
 		FFCA2BD52454DDCB008253DE /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BD42454DDCB008253DE /* Trip.swift */; };
 		FFCA2BD72455448A008253DE /* PickupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BD62455448A008253DE /* PickupController.swift */; };
+		FFCA2BDB2458CC94008253DE /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BDA2458CC94008253DE /* MenuController.swift */; };
+		FFCA2BDD2458CCC0008253DE /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BDC2458CCC0008253DE /* ContainerController.swift */; };
+		FFCA2BDF2458E2BC008253DE /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA2BDE2458E2BC008253DE /* MenuHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,9 @@
 		FFCA2BD224536E95008253DE /* RideActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideActionView.swift; sourceTree = "<group>"; };
 		FFCA2BD42454DDCB008253DE /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		FFCA2BD62455448A008253DE /* PickupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupController.swift; sourceTree = "<group>"; };
+		FFCA2BDA2458CC94008253DE /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		FFCA2BDC2458CCC0008253DE /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		FFCA2BDE2458E2BC008253DE /* MenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +152,8 @@
 		FF85A1F8244B31E700FBA778 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FF85A1FB244B353D00FBA778 /* LoginController.swift */,
-				FFCA2BBC244CD6CC008253DE /* SignUpController.swift */,
+				FFCA2BD92458CC3F008253DE /* SideMenu */,
+				FFCA2BD82458CB9C008253DE /* Authentication */,
 				FFCA2BC2244E351E008253DE /* HomeController.swift */,
 				FFCA2BD62455448A008253DE /* PickupController.swift */,
 			);
@@ -162,6 +168,7 @@
 				FFCA2BC6244F4EE8008253DE /* LocationinputView.swift */,
 				FFCA2BC824500329008253DE /* LocationCell.swift */,
 				FFCA2BD224536E95008253DE /* RideActionView.swift */,
+				FFCA2BDE2458E2BC008253DE /* MenuHeader.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +181,24 @@
 				FFCA2BD42454DDCB008253DE /* Trip.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FFCA2BD82458CB9C008253DE /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				FF85A1FB244B353D00FBA778 /* LoginController.swift */,
+				FFCA2BBC244CD6CC008253DE /* SignUpController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		FFCA2BD92458CC3F008253DE /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FFCA2BDA2458CC94008253DE /* MenuController.swift */,
+				FFCA2BDC2458CCC0008253DE /* ContainerController.swift */,
+			);
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,7 +327,10 @@
 				FFCA2BC7244F4EE8008253DE /* LocationinputView.swift in Sources */,
 				FF85A1E3244B1A4B00FBA778 /* AppDelegate.swift in Sources */,
 				FF85A1FC244B353D00FBA778 /* LoginController.swift in Sources */,
+				FFCA2BDB2458CC94008253DE /* MenuController.swift in Sources */,
 				FFCA2BCF2450F779008253DE /* LocationHandler.swift in Sources */,
+				FFCA2BDD2458CCC0008253DE /* ContainerController.swift in Sources */,
+				FFCA2BDF2458E2BC008253DE /* MenuHeader.swift in Sources */,
 				FFCA2BC924500329008253DE /* LocationCell.swift in Sources */,
 				FFCA2BD324536E96008253DE /* RideActionView.swift in Sources */,
 				FF85A1E5244B1A4B00FBA778 /* SceneDelegate.swift in Sources */,
