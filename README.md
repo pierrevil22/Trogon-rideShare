@@ -26,4 +26,10 @@ Turn by turn direction on map view while RIDER decides to confirm pickup
 
 <img width="563" alt="Screen Shot 2020-05-01 at 10 07 40 AM" src="https://user-images.githubusercontent.com/46546551/80820089-3ba83c00-8ba4-11ea-86bf-57708c57d826.png">
 
+Message is sent to nearby DRIVER for pickup 
+
+<img width="563" alt="Screen Shot 2020-05-01 at 10 21 13 AM" src="https://user-images.githubusercontent.com/46546551/80820307-a35e8700-8ba4-11ea-8968-b53d970f80f3.png">
+
+
+
 
