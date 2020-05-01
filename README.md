@@ -14,4 +14,8 @@ Sign Up both RIDER and DRIVER
 
 <img width="565" alt="Screen Shot 2020-05-01 at 10 01 29 AM" src="https://user-images.githubusercontent.com/46546551/80819530-21ba2980-8ba3-11ea-90d0-09d0cbee32e6.png">
 
+Map View for both RIDER and DRIVER
+
+<img width="563" alt="Screen Shot 2020-05-01 at 10 06 18 AM" src="https://user-images.githubusercontent.com/46546551/80819743-92614600-8ba3-11ea-99af-6271451ba926.png">
+
 
