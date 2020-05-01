@@ -30,6 +30,10 @@ Message is sent to nearby DRIVER for pickup
 
 <img width="563" alt="Screen Shot 2020-05-01 at 10 21 13 AM" src="https://user-images.githubusercontent.com/46546551/80820307-a35e8700-8ba4-11ea-8968-b53d970f80f3.png">
 
+DRIVER can either accept the pickup or deny it 
+
+<img width="563" alt="Screen Shot 2020-05-01 at 10 21 53 AM" src="https://user-images.githubusercontent.com/46546551/80820564-1f58cf00-8ba5-11ea-8f7c-4fd1878197b7.png">
+
 
 
 
