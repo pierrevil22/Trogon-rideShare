@@ -22,4 +22,8 @@ Search for any destination from RIDER view
 
 <img width="564" alt="Screen Shot 2020-05-01 at 10 07 02 AM" src="https://user-images.githubusercontent.com/46546551/80819845-c50b3e80-8ba3-11ea-8e2b-5130740df6fa.png">
 
+Turn by turn direction on map view while RIDER decides to confirm pickup
+
+<img width="563" alt="Screen Shot 2020-05-01 at 10 07 40 AM" src="https://user-images.githubusercontent.com/46546551/80820089-3ba83c00-8ba4-11ea-86bf-57708c57d826.png">
+
 
