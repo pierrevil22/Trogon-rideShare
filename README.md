@@ -34,6 +34,11 @@ DRIVER can either accept the pickup or deny it
 
 <img width="563" alt="Screen Shot 2020-05-01 at 10 21 53 AM" src="https://user-images.githubusercontent.com/46546551/80820564-1f58cf00-8ba5-11ea-8f7c-4fd1878197b7.png">
 
+Sliding menu for both RIDER and DRIVER
+
+<img width="563" alt="Screen Shot 2020-05-01 at 10 44 55 AM" src="https://user-images.githubusercontent.com/46546551/80820711-68108800-8ba5-11ea-8070-f020efbb95b0.png">
+
+
 
 
 
