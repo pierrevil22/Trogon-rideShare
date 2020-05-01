@@ -7,6 +7,11 @@ This is a fully functioning ride share application, built from the ground up, fu
  Showing both RIDER and DRIVER
  
  Sign In both RIDER and DRIVER
+ 
 <img width="564" alt="Screen Shot 2020-05-01 at 10 04 40 AM" src="https://user-images.githubusercontent.com/46546551/80812980-182ac480-8b97-11ea-8a8a-7ba305336e5f.png">
+
+Sign Up both RIDER and DRIVER
+
+<img width="565" alt="Screen Shot 2020-05-01 at 10 01 29 AM" src="https://user-images.githubusercontent.com/46546551/80819530-21ba2980-8ba3-11ea-90d0-09d0cbee32e6.png">
 
 
