@@ -18,4 +18,8 @@ Map View for both RIDER and DRIVER
 
 <img width="563" alt="Screen Shot 2020-05-01 at 10 06 18 AM" src="https://user-images.githubusercontent.com/46546551/80819743-92614600-8ba3-11ea-99af-6271451ba926.png">
 
+Search for any destination from RIDER view
+
+<img width="564" alt="Screen Shot 2020-05-01 at 10 07 02 AM" src="https://user-images.githubusercontent.com/46546551/80819845-c50b3e80-8ba3-11ea-8e2b-5130740df6fa.png">
+
 
